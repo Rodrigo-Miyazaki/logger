@@ -22,30 +22,28 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Descrição
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Aplicação com integração ao elastic search e kibana
 
-## Installation
+## Instalação
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+## Executando a aplicação
 
 ```bash
-# development
-$ npm run start
+$ docker-compose up --build
+```
+Após executar a aplicação utlize o link http://localhost:5601/ para acessar o kibana
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+```bash
+$ docker-compose down
 ```
 
-## Test
+## Executando testes
 
 ```bash
 # unit tests
